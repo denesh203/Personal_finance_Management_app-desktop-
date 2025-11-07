@@ -11,8 +11,13 @@ Personal Finance Manager built with C# WinForms - Track income, expenses, invest
 2. **Open in Visual Studio**:
    - Open the project solution file
    - Build and run the application
-
-3. **Login**:
+  
+     
+3.  **change the connectionstring**:
+     -  string connectionString = @"Data Source=Server_name\SQLEXPRESS;Initial Catalog=personal_finance;Integrated Security=True;";
+In "Server_name\SQLEXPRESS" use your Server name
+  
+4. **Login**:
    - Username: `admin`
    - Password: `admin`
    - (Credentials are pre-filled in the login form)
